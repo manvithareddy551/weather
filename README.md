@@ -1,55 +1,70 @@
-# [Moment.js](http://momentjs.com/)
+# Getting Started with Create React App
 
-[![NPM version][npm-version-image]][npm-url]
-[![NPM downloads][npm-downloads-image]][npm-downloads-url]
-[![MIT License][license-image]][license-url]
-[![Build Status][travis-image]][travis-url]
-[![Coverage Status][coveralls-image]][coveralls-url]
-[![FOSSA Status][fossa-badge-image]][fossa-badge-url]
-[![SemVer compatibility][semver-image]][semver-url]
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-A JavaScript date library for parsing, validating, manipulating, and formatting dates.
+## Available Scripts
 
-## Project Status
+In the project directory, you can run:
 
-Moment.js is a legacy project, now in maintenance mode.  In most cases, you should choose a different library.
+### `npm start`
 
-For more details and recommendations, please see [Project Status](https://momentjs.com/docs/#/-project-status/) in the docs.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-*Thank you.*
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Resources
+### `npm test`
 
-- [Documentation](https://momentjs.com/docs/)
-- [Changelog](CHANGELOG.md)
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/momentjs)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## License
+### `npm run build`
 
-Moment.js is freely distributable under the terms of the [MIT license][license-url].
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-[![FOSSA Status][fossa-large-image]][fossa-large-url]
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-[license-image]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
-[license-url]: LICENSE
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-[npm-url]: https://npmjs.org/package/moment
-[npm-version-image]: https://img.shields.io/npm/v/moment.svg?style=flat
+### `npm run eject`
 
-[npm-downloads-image]: https://img.shields.io/npm/dm/moment.svg?style=flat
-[npm-downloads-url]: https://npmcharts.com/compare/moment?minimal=true
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-[travis-url]: https://travis-ci.org/moment/moment
-[travis-image]: https://img.shields.io/travis/moment/moment/develop.svg?style=flat
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-[coveralls-image]: https://coveralls.io/repos/moment/moment/badge.svg?branch=develop
-[coveralls-url]: https://coveralls.io/r/moment/moment?branch=develop
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-[fossa-badge-image]: https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fmoment%2Fmoment.svg?type=shield
-[fossa-badge-url]: https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fmoment%2Fmoment?ref=badge_shield
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-[fossa-large-image]: https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fmoment%2Fmoment.svg?type=large
-[fossa-large-url]: https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2Fmoment%2Fmoment?ref=badge_large
+## Learn More
 
-[semver-image]: https://api.dependabot.com/badges/compatibility_score?dependency-name=moment&package-manager=npm_and_yarn&version-scheme=semver
-[semver-url]: https://dependabot.com/compatibility-score.html?dependency-name=moment&package-manager=npm_and_yarn&version-scheme=semver
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
