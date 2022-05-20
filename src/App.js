@@ -23,7 +23,7 @@ function App() {
     setWeatherData([])
     let how_to_search = (typeof location === 'string') ? `q=${location}` : `lat=${location[0]}&lon=${location[1]}`
     try {
-      let res = await fetch(`${`https:api.openweathermap.org/data/2.5/forecast?${how_to_search}`}
+      let res = await fetch(`${`https://api.openweathermap.org/data/2.5/forecast?${how_to_search}`}
       &appid=${API_KEY}&units=metric&cnt=5&exclude=hourly,minutely`)
       let data = await res.json()
       if(data.cod !== '200') {
